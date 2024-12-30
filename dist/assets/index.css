@@ -3,6 +3,7 @@
   --text-color: #000000;
   --line-height: 1.20rem;
   --font-weight-bold: 800;
+  --border-thickness: 2px;
 }
 
 html {
