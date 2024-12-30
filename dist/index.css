@@ -1,3 +1,33 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --line-height: 1.20rem;
+  --font-weight-bold: 800;
+}
+
+html {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
 body {
-  background-color: blue;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: var(--line-height) 2ch;
+  max-width: calc(min(80ch, round(down, 100%, 1ch)));
+  line-height: var(--line-height);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+  margin: calc(var(--line-height) * 2) 0 var(--line-height);
+  line-height: var(--line-height);
 }
