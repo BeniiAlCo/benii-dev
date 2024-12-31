@@ -129,7 +129,7 @@ th {
   outline: var(--border-thickness) solid var(--text-color);
   padding: 
     calc((var(--line-height) / 2))
-    calc(calc(1ch - var(--border-thickness) / 2) + 1ch)
+    calc(2ch - var(--border-thickness) / 2)
     calc((var(--line-height) / 2) - (var(--border-thickness)))
   ;
   outline-offset:
