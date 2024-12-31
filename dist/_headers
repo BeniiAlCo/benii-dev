@@ -1,2 +1,4 @@
+/favicon.ico
+  Content-Type: image/x-icon
 /assets/*
   Cache-Control: no-cache, no-store, must-revalidate
