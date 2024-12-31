@@ -128,13 +128,13 @@ th {
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
   padding: 
-    calc((var(--line-height) / 2))
+    calc((var(--line-height) / 2) / 2)
     calc(1ch - var(--border-thickness) / 2)
-    calc((var(--line-height) / 2) - (var(--border-thickness)))
+    calc(((var(--line-height) / 2) - (var(--border-thickness))) / 2)
   ;
   outline-offset:
-  calc((var(--line-height) / 2))
+  calc((var(--line-height) / 2) / 2)
   calc(1ch - var(--border-thickness) / 2)
-  calc((var(--line-height) / 2) - var(--border-thickness))
+  calc(((var(--line-height) / 2) - var(--border-thickness)) / 2)
 ;
 }
