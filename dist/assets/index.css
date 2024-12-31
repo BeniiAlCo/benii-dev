@@ -108,7 +108,7 @@ th {
 .header tr:last-child td {
   border: var(--border-thickness) solid var(--text-color);
   outline: var(--border-thickness) solid var(--text-color);
-  outline-offset: calc(0 - var(--border-thickness) * 2);
+  outline-offset: -5px;
   background-color: var(--background-color);
 }
 .header tr:last-child td:hover {
