@@ -129,5 +129,5 @@ th {
  text-decoration: none;
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
-  outline-offset: -5px;
+  outline-offset: var(--border-thickness);
 }
