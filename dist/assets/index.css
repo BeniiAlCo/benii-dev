@@ -110,18 +110,19 @@ th {
  border: var(--border-thickness) solid var(--text-color);
  outline: var(--border-thickness) solid var(--text-color);
  outline-offset: -5px;
- background-color: var(--background-color);
-}
-
-.header tr:last-child td:hover {
- background-color: var(--text-color);
-}
-
-.header tr:last-child td:hover a {
- color: var(--background-color);
+ padding: 0;
 }
 
 .header tr:last-child td a {
+ display: block;
+ margin: var(--border-thickness);
+ padding: 5px;
  color: var(--text-color);
  text-decoration: none;
+ background-color: var(--background-color);
+}
+
+.header tr:last-child td a:hover {
+ background-color: var(--text-color);
+ color: var(--background-color);
 }
