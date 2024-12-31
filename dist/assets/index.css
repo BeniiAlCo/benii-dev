@@ -106,34 +106,23 @@ th {
 
 
 
-.header tr:nth-last-child(2) td,
-.header tr:nth-last-child(2) th {
-  border-bottom: var(--border-thickness) solid var(--text-color);
-  padding-bottom: var(--line-height);
-}
-
-
-
-
-
-
-.header tr:last-child td {
+.navigation td {
  border: var(--border-thickness) solid var(--text-color);
  background-color: var(--background-color);
   text-align: left;
 }
 
-.header tr:last-child td:hover {
+.navigation td:hover {
  background-color: var(--text-color);
 }
 
-.header tr:last-child td:hover a {
+.navigation td:hover a {
  background-color: var(--text-color);
  color: var(--background-color);
  outline-color: var(--background-color);
 }
 
-.header tr:last-child td a {
+.navigation td a {
   display: block;
  color: var(--text-color);
  text-decoration: none;
