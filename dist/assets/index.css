@@ -110,13 +110,15 @@ th {
  border: var(--border-thickness) solid var(--text-color);
  outline: var(--border-thickness) solid var(--text-color);
  outline-offset: -5px;
- padding: 0;
+ padding: 5px;
 }
 
 .header tr:last-child td a {
  display: block;
- margin: var(--border-thickness);
+ margin: -5px;
  padding: 5px;
+ width: calc(100% + 10px);
+ height: calc(100% + 10px);
  color: var(--text-color);
  text-decoration: none;
  background-color: var(--background-color);
