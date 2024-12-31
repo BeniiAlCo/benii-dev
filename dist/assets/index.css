@@ -94,7 +94,7 @@ th, td {
   vertical-align: top;
   text-align: left;
 }
-table tbody tr:first-child > * {
+table:not(.navigation) tbody tr:first-child > * {
   padding-top: calc((var(--line-height) / 2) - var(--border-thickness));
 }
 
