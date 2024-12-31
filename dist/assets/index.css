@@ -93,6 +93,10 @@ th {
   width: 100%;
 }
 
+tr:last-child td {
+  border-bottom: double var(--border-thickness) var(--text-color);
+}
+
 .header {
   margin-bottom: calc(var(--line-height) * 2);
 }
