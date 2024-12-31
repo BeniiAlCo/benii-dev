@@ -1,7 +1,6 @@
 {
   "version": 1,
   "routes": [
-    { "src": "/favicon.ico", "status": 204 },
     { "src": "/assets/*", "dest": "/assets/*" },
     { "src": "/*", "dest": "/index.html" }
   ]
