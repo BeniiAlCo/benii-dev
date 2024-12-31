@@ -17,21 +17,7 @@
   font-size: 16px;
 }
 
-table {
-  max-width: 100vw;
-  overflow-x: auto;
-}
 
-@media (max-width: 600px) {
-  body {
-    padding: var(--line-height) 1ch;
-  }
-  
-  table {
-    width: calc(100% + (var(--border-thickness) * 2));
-    margin: 0 calc(-1 * var(--border-thickness));
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -154,4 +140,21 @@ table:not(.navigation) tbody tr:first-child > * {
  background-color: var(--text-color);
  color: var(--background-color);
  outline-color: var(--background-color);
+}
+
+
+table {
+  max-width: 100vw;
+  overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: var(--line-height) 1ch;
+  }
+  
+  table {
+    width: calc(100% + (var(--border-thickness) * 2));
+    margin: 0 calc(-1 * var(--border-thickness));
+  }
 }
