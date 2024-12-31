@@ -104,7 +104,8 @@ table tbody tr:first-child > * {
 
 .navigation {
   border-collapse: separate;
-  width: calc(calc(round(down, 100%, 1ch)) + calc(1ch / 4));
+  width: calc(calc(round(down, 100%, 1ch)) + calc(1ch / 2));
+  margin-left: calc(-1*(1ch / 4));
 }
 .navigation td {
  border: var(--border-thickness) solid var(--text-color);
