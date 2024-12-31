@@ -101,25 +101,21 @@ table tbody tr:first-child > * {
 .header h1 {
   margin: 0;
 }
+.header tr td:last-child {
+  text-align: right;
+}
 
 .navigation {
   border-collapse: separate;
   width: calc(calc(round(down, 100%, 1ch)) + calc(1ch / 2));
   margin-left: calc(-1*(1ch / 4));
 }
-.navigation td {
- border: var(--border-thickness) solid var(--text-color);
- background-color: var(--background-color);
-  text-align: left;
-}
 .navigation td:hover {
  background-color: var(--text-color);
 }
 .navigation td a {
   display: block;
- color: var(--text-color);
- text-decoration: none;
-  background-color: var(--background-color);
+  text-decoration: none;
   outline: var(--border-thickness) solid var(--text-color);
   padding-left: calc((1ch - var(--border-thickness)) / 2);
 }
