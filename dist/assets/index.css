@@ -54,10 +54,15 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+  word-break: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
 a {
   text-decoration-thickness: var(--border-thickness);
 }
-
 a:link, a:visited {
   color: var(--text-color);
 }
@@ -110,8 +115,8 @@ table:not(.navigation) tbody tr:first-child > * {
 
 .navigation {
   border-collapse: separate;
-  width: calc(calc(round(down, 100%, 1ch)) + calc(1ch / 2));
-  margin-left: calc(-1*(1ch / 4));
+  width: calc(round(down, 100%, 1ch) +(var(--border-thickness)* 2));
+  margin-left: calc(-1 * var(--border-thickness));
 }
 .navigation td {
   text-align: center;
