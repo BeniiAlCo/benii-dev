@@ -111,7 +111,6 @@ th {
  outline: var(--border-thickness) solid var(--text-color);
  outline-offset: -5px;
  background-color: var(--background-color);
-  padding: 0;
 }
 
 .header tr:last-child td:hover {
