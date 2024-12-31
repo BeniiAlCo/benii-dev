@@ -150,7 +150,8 @@ table:not(.navigation) tbody tr:first-child > * {
   body {
     padding: var(--line-height) 1ch;
   }
-  .navigation {
-    width: calc(1ch - var(--border-thickness) / 2 + (var(--border-thickness) * 2));
-  }
+ .navigation {
+   width: calc(100% + (var(--border-thickness) * 2));
+   margin-left: calc(-1 * var(--border-thickness));
+ }
 }
