@@ -5,8 +5,16 @@
   --background-color: #ffffff;
   --text-color: #000000;
   --line-height: 1.20rem;
+  --font-weight-normal: 500;
+  --font-weight-medium: 600;
   --font-weight-bold: 800;
   --border-thickness: 2px;
+
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  font-style: normal;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-size: 16px;
 }
 
 html {
