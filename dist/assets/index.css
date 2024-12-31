@@ -63,9 +63,9 @@ h2 {
 p {
   word-break: break-word;
   word-wrap: break-word;
-  hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 a {
