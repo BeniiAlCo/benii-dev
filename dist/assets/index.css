@@ -150,4 +150,7 @@ table:not(.navigation) tbody tr:first-child > * {
   body {
     padding: var(--line-height) 1ch;
   }
+  .navigation {
+    width: 100vw;
+  }
 }
