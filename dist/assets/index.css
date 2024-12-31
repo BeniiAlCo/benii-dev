@@ -102,13 +102,25 @@ th {
 .header h1 {
   margin: 0;
 }
-.header tr td:last-child {
-  text-align: right;
+
+
+
+
+.header tr:nth-last-child(2) td,
+.header tr:nth-last-child(2) th {
+  border-bottom: var(--border-thickness) solid var(--text-color);
+  padding-bottom: var(--line-height);
 }
+
+
+
+
+
 
 .header tr:last-child td {
  border: var(--border-thickness) solid var(--text-color);
  background-color: var(--background-color);
+  text-align: left;
 }
 
 .header tr:last-child td:hover {
