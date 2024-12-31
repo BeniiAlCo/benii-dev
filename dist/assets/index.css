@@ -59,6 +59,17 @@ a:link, a:visited {
   color: var(--text-color);
 }
 
+time {
+  white-space: pre;
+}
+
+.width-min {
+  width: 0%;
+}
+.width-auto {
+  width: 100%;
+}
+
 table {
   position: relative;
   top: calc(var(--line-height) / 2);
@@ -66,7 +77,9 @@ table {
   border-collapse: collapse;
   margin: 0 0 calc(var(--line-height) * 2);
 }
-
+th {
+  font-weight: 700;
+}
 th, td {
   border: var(--border-thickness) solid var(--text-color);
   padding: 
@@ -82,53 +95,34 @@ table tbody tr:first-child > * {
   padding-top: calc((var(--line-height) / 2) - var(--border-thickness));
 }
 
-time {
-  white-space: pre;
-}
-
-th {
-  font-weight: 700;
-}
-.width-min {
-  width: 0%;
-}
-.width-auto {
-  width: 100%;
-}
-
 .header {
- margin-bottom: var(--line-height);
+  margin-bottom: 1ch;
 }
 .header h1 {
   margin: 0;
 }
 
-
-
 .navigation {
   border-collapse: separate;
+  width: calc(calc(round(down, 100%, 1ch)) + calc(1ch / 4));
 }
-
 .navigation td {
  border: var(--border-thickness) solid var(--text-color);
  background-color: var(--background-color);
   text-align: left;
 }
-
 .navigation td:hover {
  background-color: var(--text-color);
 }
-
-.navigation td:hover a {
- background-color: var(--text-color);
- color: var(--background-color);
- outline-color: var(--background-color);
-}
-
 .navigation td a {
   display: block;
  color: var(--text-color);
  text-decoration: none;
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
+}
+.navigation td:hover a {
+ background-color: var(--text-color);
+ color: var(--background-color);
+ outline-color: var(--background-color);
 }
