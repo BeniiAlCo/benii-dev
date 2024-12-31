@@ -83,7 +83,7 @@ table tbody tr:first-child > * {
 }
 
 time {
-  whitespace: pre;
+  white-space: pre;
 }
 
 th {
