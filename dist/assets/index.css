@@ -105,6 +105,6 @@ th {
 .header tr td:last-child {
   text-align: right;
 }
-.header tr td:last-child {
+.header tr:last-child td {
   border-bottom: double var(--border-thickness) var(--text-color);
 }
