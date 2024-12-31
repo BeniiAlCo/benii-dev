@@ -151,6 +151,6 @@ table:not(.navigation) tbody tr:first-child > * {
     padding: var(--line-height) 1ch;
   }
   .navigation {
-    width: 100vw;
+    width: calc(round(down, 100%, 1ch) + (var(--border-thickness) * 2));
   }
 }
