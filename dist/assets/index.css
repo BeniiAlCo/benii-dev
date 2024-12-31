@@ -127,7 +127,7 @@ th {
  text-decoration: none;
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
-  padding: 1ch;
+  padding: calc(1ch / 2);
   outline-offset:
   calc((var(--line-height) / 2))
   calc(1ch - var(--border-thickness) / 2)
