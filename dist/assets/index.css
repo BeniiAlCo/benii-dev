@@ -120,7 +120,7 @@ table:not(.navigation) tbody tr:first-child > * {
 .navigation {
   border-collapse: separate;
   box-sizing: content-box;
-  margin-left: calc(-1 * var(--border-thickness));
+  margin-left: calc(-1* var(--border-thickness));
   width: calc(round(down, 100%, 1ch) +(var(--border-thickness)* 2));
 }
 .navigation td {
