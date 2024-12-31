@@ -121,6 +121,7 @@ table tbody tr:first-child > * {
  text-decoration: none;
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
+  padding-left: calc((1ch - var(--border-thickness)) / 2);
 }
 .navigation td:hover a {
  background-color: var(--text-color);
