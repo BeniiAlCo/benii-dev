@@ -122,6 +122,7 @@ th {
 }
 
 .header tr:last-child td a {
+  display: block;
  color: var(--text-color);
  text-decoration: none;
 }
