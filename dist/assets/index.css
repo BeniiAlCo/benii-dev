@@ -111,6 +111,11 @@ th {
  /*outline: var(--border-thickness) solid var(--text-color);*/
  /*outline-offset: -5px;*/
  background-color: var(--background-color);
+  padding: 
+  calc((var(--line-height) / 2))
+  calc(2ch - var(--border-thickness) / 2)
+  calc((var(--line-height) / 2) - var(--border-thickness))
+;
 }
 
 .header tr:last-child td:hover {
@@ -129,5 +134,9 @@ th {
  text-decoration: none;
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
-  outline-offset: var(--border-thickness);
+  outline-offset: padding: 
+  calc((var(--line-height) / 2))
+  calc(1ch - var(--border-thickness) / 2)
+  calc((var(--line-height) / 2) - var(--border-thickness))
+;
 }
