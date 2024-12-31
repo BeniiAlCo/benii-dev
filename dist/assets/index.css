@@ -157,4 +157,10 @@ table {
     width: calc(100% + (var(--border-thickness) * 2));
     margin: 0 calc(-1 * var(--border-thickness));
   }
+
+  .navigation {
+    width: 100vw;
+    margin-left: calc(-1ch - var(--border-thickness));
+    border-spacing: 0;
+  }
 }
