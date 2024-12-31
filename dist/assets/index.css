@@ -85,6 +85,7 @@ time {
 }
 
 table {
+  max-width: 100vw;
   position: relative;
   top: calc(var(--line-height) / 2);
   width: calc(round(down, 100%, 1ch));
@@ -142,21 +143,11 @@ table:not(.navigation) tbody tr:first-child > * {
  outline-color: var(--background-color);
 }
 
-
-table {
-  max-width: 100vw;
-  overflow-x: auto;
-}
-
 @media screen and (max-width: 480px) {
   :root {
     font-size: 14px;
   }
   body {
     padding: var(--line-height) 1ch;
-  }
-  .navigation {
-    width: 100vw;
-    margin-left: calc(-1ch - var(--border-thickness));
   }
 }
