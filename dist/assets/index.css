@@ -97,7 +97,7 @@ th {
 }
 
 .header {
-  margin-bottom: calc(var(--line-height) * 2);
+ margin-bottom: var(--line-height);
 }
 .header h1 {
   margin: 0;
@@ -105,6 +105,9 @@ th {
 
 
 
+.navigation {
+  border-collapse: separate;
+}
 
 .navigation td {
  border: var(--border-thickness) solid var(--text-color);
@@ -128,14 +131,4 @@ th {
  text-decoration: none;
   background-color: var(--background-color);
   outline: var(--border-thickness) solid var(--text-color);
-  padding: 
-    calc((var(--line-height) / 2) / 2)
-    calc(1ch - var(--border-thickness) / 2)
-    calc(((var(--line-height) / 2) - (var(--border-thickness))) / 2)
-  ;
-  outline-offset:
-  calc((var(--line-height) / 2) / 2)
-  calc(1ch - var(--border-thickness) / 2)
-  calc(((var(--line-height) / 2) - var(--border-thickness)) / 2)
-;
 }
