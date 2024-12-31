@@ -1,7 +1,7 @@
-/*@import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');*/
+@import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
 
 :root {
-  /*--font-family: "JetBrains Mono", monospace;*/
+  --font-family: "JetBrains Mono", monospace;
   --background-color: #ffffff;
   --text-color: #000000;
   --line-height: 1.20rem;
@@ -10,7 +10,7 @@
   --font-weight-bold: 800;
   --border-thickness: 2px;
 
-  /*font-family: var(--font-family);*/
+  font-family: var(--font-family);
   font-weight: var(--font-weight-normal);
   font-style: normal;
   font-variant-numeric: tabular-nums lining-nums;
