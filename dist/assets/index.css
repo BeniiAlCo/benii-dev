@@ -110,6 +110,9 @@ table tbody tr:first-child > * {
   width: calc(calc(round(down, 100%, 1ch)) + calc(1ch / 2));
   margin-left: calc(-1*(1ch / 4));
 }
+.navigation td {
+  text-align: center;
+}
 .navigation td:hover {
  background-color: var(--text-color);
 }
@@ -117,7 +120,6 @@ table tbody tr:first-child > * {
   display: block;
   text-decoration: none;
   outline: var(--border-thickness) solid var(--text-color);
-  padding-left: calc((1ch - var(--border-thickness)) / 2);
 }
 .navigation td:hover a {
  background-color: var(--text-color);
