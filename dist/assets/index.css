@@ -105,20 +105,25 @@ th {
 .header tr td:last-child {
   text-align: right;
 }
+
+
 .header tr:last-child td {
-  border: var(--border-thickness) solid var(--text-color);
-  outline: var(--border-thickness) solid var(--text-color);
-  outline-offset: -5px;
-  background-color: var(--background-color);
+ border: var(--border-thickness) solid var(--text-color);
+ outline: var(--border-thickness) solid var(--text-color);
+ outline-offset: -5px;
+ padding: 5px;
 }
-.header tr:last-child td:hover {
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-.header tr:last-child td:hover a {
-  color: var(--background-color);
-}
+
 .header tr:last-child td a {
-  color: var(--text-color);
-  text-decoration: none;
+ display: block;
+ padding: 5px;
+ margin: -5px;
+ color: var(--text-color);
+ text-decoration: none;
+ background-color: var(--background-color);
+}
+
+.header tr:last-child td a:hover {
+ background-color: var(--text-color);
+ color: var(--background-color);
 }
