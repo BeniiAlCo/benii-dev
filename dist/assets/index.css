@@ -106,6 +106,5 @@ th {
   text-align: right;
 }
 .header tr:last-child td {
-  border: 2px solid red;  /* Test if selector works */
-  border-bottom: double var(--border-thickness) var(--text-color);
+ border: double var(--border-thickness) var(--text-color);
 }
