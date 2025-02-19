@@ -141,7 +141,7 @@ padding: 0 !important; }
 
 .navigation {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: var(--border-thickness);
   width: calc(round(down, 100%, 1ch) + (var(--border-thickness) * 2));
   margin-left: calc(-1 * var(--border-thickness));
